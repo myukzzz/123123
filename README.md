@@ -4,7 +4,7 @@ Nine illustrative clips from the single-arm robot recordings. The IDs follow the
 
 ## View the results
 
-Open [index.html](index.html) from a local checkout or visit the GitHub Pages site if enabled. Select a frame below to open the corresponding animated GIF.
+Select a frame below to open the corresponding animated GIF.
 
 ## Source Domain
 

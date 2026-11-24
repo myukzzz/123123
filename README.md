@@ -4,7 +4,7 @@ Nine illustrative clips from the single-arm robot recordings. The IDs follow the
 
 ## View the results
 
-Open [index.html](index.html) from a local checkout or visit the GitHub Pages site if enabled. Select a frame below to open the corresponding animated GIF.
+Select a frame below to open the corresponding animated GIF.
 
 ## Source Domain
 
@@ -38,8 +38,3 @@ Open [index.html](index.html) from a local checkout or visit the GitHub Pages si
 - **U5** The source tray and destination box are visible from above.
 - **U6** The cylinder is transferred into the cardboard box in the overhead view.
 
-## Host on GitHub Pages
-
-Place these files at the repository root or in <code>docs/</code>. In the repository Pages settings, select the branch and the matching directory as the publishing source. All assets use relative links and the site requires no build step. For anonymous review through a repository mirror, share the anonymous repository link. The preview table above can be used without deploying a Pages site.
-
-[GitHub Pages publishing source instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)

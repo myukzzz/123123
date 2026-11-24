@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nine qualitative real-robot rollouts for PARIS.">
+  <title>PARIS | Real-Robot Rollouts</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="player.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#results">Skip to rollouts</a>
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <a class="wordmark" href="#top">PARIS</a>
+      <nav aria-label="Evaluation domains"><a href="#source">Source Domain</a><a href="#target">Target Domain</a></nav>
+    </div>
+  </header>
+  <main id="top" class="wrap">
+    <div class="intro">
+      <h1>Real-robot rollouts</h1>
+      <p>Nine qualitative executions cover changes in tabletop layout, distractors, background, and receptacle geometry, with additional overhead recordings.</p>
+    </div>
+    <div id="results">
+    
+    <section id="source" class="domain" aria-labelledby="source-title">
+      <h2 id="source-title">Source Domain</h2>
+      <div class="clips">
+        <article class="clip" id="s1">
+          <div class="clip-heading"><span class="setting">S1</span><h3>Block stacking</h3></div>
+          <p class="instruction">&ldquo;Stack the blue block on the green block.&rdquo;</p>
+          <div class="media">
+            <button class="player" type="button" data-gif="assets/clips/s1.gif" data-poster="assets/posters/s1.jpg"
+                    aria-pressed="false" aria-label="Play S1: Reference layout" hidden>
+              <span class="play-caption" aria-hidden="true"><span class="play-icon"></span><span class="play-text">Play</span></span>
+            </button>
+            <img src="assets/posters/s1.jpg" width="480" height="360" loading="lazy" decoding="async" alt="White mat with a red distractor.">
+          </div>
+          <p class="clip-detail">White mat with a red distractor.</p>
+          <a class="gif-link" href="assets/clips/s1.gif" aria-label="Open GIF for S1">Open GIF <span aria-hidden="true">&#8599;</span></a>
+        </article>
+        <article class="clip" id="s2">
+          <div class="clip-heading"><span class="setting">S2</span><h3>Sphere placement</h3></div>
+          <p class="instruction">&ldquo;Move the sphere from the tray into the box.&rdquo;</p>
+          <div class="media">
+            <button class="player" type="button" data-gif="assets/clips/s2.gif" data-poster="assets/posters/s2.jpg"
+                    aria-pressed="false" aria-label="Play S2: Reference background" hidden>
+              <span class="play-caption" aria-hidden="true"><span class="play-icon"></span><span class="play-text">Play</span></span>
+            </button>
+            <img src="assets/posters/s2.jpg" width="480" height="360" loading="lazy" decoding="async" alt="Sphere transfer from a small tray into a box on the bare tabletop.">
+          </div>
+          <p class="clip-detail">Sphere transfer from a small tray into a box on the bare tabletop.</p>
+          <a class="gif-link" href="assets/clips/s2.gif" aria-label="Open GIF for S2">Open GIF <span aria-hidden="true">&#8599;</span></a>
+        </article>
+        <article class="clip" id="s3">
+          <div class="clip-heading"><span class="setting">S3</span><h3>Cylinder placement</h3></div>
+          <p class="instruction">&ldquo;Place the cylinder in the receptacle.&rdquo;</p>
+          <div class="media">
+            <button class="player" type="button" data-gif="assets/clips/s3.gif" data-poster="assets/posters/s3.jpg"
+                    aria-pressed="false" aria-label="Play S3: Reference receptacle" hidden>
+              <span class="play-caption" aria-hidden="true"><span class="play-icon"></span><span class="play-text">Play</span></span>
+            </button>
+            <img src="assets/posters/s3.jpg" width="480" height="360" loading="lazy" decoding="async" alt="The cylinder ends upright in the shallow holder.">
+          </div>
+          <p class="clip-detail">The cylinder ends upright in the shallow holder.</p>
+          <a class="gif-link" href="assets/clips/s3.gif" aria-label="Open GIF for S3">Open GIF <span aria-hidden="true">&#8599;</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section id="target" class="domain" aria-labelledby="target-title">
+      <h2 id="target-title">Target Domain</h2>
+      <div class="domain-group"><h3>Changes to the physical setup</h3>
+      <div class="clips">
+        <article class="clip" id="u1">
+          <div class="clip-heading"><span class="setting">U1</span><h4>Block stacking</h4></div>
+          <p class="instruction">&ldquo;Stack the blue block on the green block.&rdquo;</p>
+          <div class="media">
+            <button class="player" type="button" data-gif="assets/clips/u1.gif" data-poster="assets/posters/u1.jpg"
+                    aria-pressed="false" aria-label="Play U1: Layout and distractor change" hidden>
+              <span class="play-caption" aria-hidden="true"><span class="play-icon"></span><span class="play-text">Play</span></span>
+            </button>
+            <img src="assets/posters/u1.jpg" width="480" height="360" loading="lazy" decoding="async" alt="Bare tabletop with a yellow distractor and a different block arrangement.">
+          </div>
+          <p class="clip-detail">Bare tabletop with a yellow distractor and a different block arrangement.</p>
+          <a class="gif-link" href="assets/clips/u1.gif" aria-label="Open GIF for U1">Open GIF <span aria-hidden="true">&#8599;</span></a>
+        </article>
+        <article class="clip" id="u2">
+          <div class="clip-heading"><span class="setting">U2</span><h4>Sphere placement</h4></div>
+          <p class="instruction">&ldquo;Move the sphere from the tray into the box.&rdquo;</p>
+          <div class="media">
+            <button class="player" type="button" data-gif="assets/clips/u2.gif" data-poster="assets/posters/u2.jpg"
+                    aria-pressed="false" aria-label="Play U2: Background change" hidden>
+              <span class="play-caption" aria-hidden="true"><span class="play-icon"></span><span class="play-text">Play</span></span>
+            </button>
+            <img src="assets/posters/u2.jpg" width="480" height="360" loading="lazy" decoding="async" alt="The same tray-to-box transfer takes place on a white mat.">
+          </div>
+          <p class="clip-detail">The same tray-to-box transfer takes place on a white mat.</p>
+          <a class="gif-link" href="assets/clips/u2.gif" aria-label="Open GIF for U2">Open GIF <span aria-hidden="true">&#8599;</span></a>
+        </article>
+        <article class="clip" id="u3">
+          <div class="clip-heading"><span class="setting">U3</span><h4>Cylinder placement</h4></div>
+          <p class="instruction">&ldquo;Place the cylinder in the receptacle.&rdquo;</p>
+          <div class="media">
+            <button class="player" type="button" data-gif="assets/clips/u3.gif" data-poster="assets/posters/u3.jpg"
+                    aria-pressed="false" aria-label="Play U3: Receptacle geometry change" hidden>
+              <span class="play-caption" aria-hidden="true"><span class="play-icon"></span><span class="play-text">Play</span></span>
+            </button>
+            <img src="assets/posters/u3.jpg" width="480" height="360" loading="lazy" decoding="async" alt="The cylinder ends on its side inside a deeper cardboard box.">
+          </div>
+          <p class="clip-detail">The cylinder ends on its side inside a deeper cardboard box.</p>
+          <a class="gif-link" href="assets/clips/u3.gif" aria-label="Open GIF for U3">Open GIF <span aria-hidden="true">&#8599;</span></a>
+        </article>
+      </div>
+      </div>
+      <div class="domain-group"><h3>Top-down recordings</h3>
+      <div class="clips">
+        <article class="clip" id="u4">
+          <div class="clip-heading"><span class="setting">U4</span><h4>Block stacking</h4></div>
+          <p class="instruction">&ldquo;Stack the blue block on the green block.&rdquo;</p>
+          <div class="media">
+            <button class="player" type="button" data-gif="assets/clips/u4.gif" data-poster="assets/posters/u4.jpg"
+                    aria-pressed="false" aria-label="Play U4: Top-down recording" hidden>
+              <span class="play-caption" aria-hidden="true"><span class="play-icon"></span><span class="play-text">Play</span></span>
+            </button>
+            <img src="assets/posters/u4.jpg" width="480" height="360" loading="lazy" decoding="async" alt="The blue block is stacked on the green block in the overhead view.">
+          </div>
+          <p class="clip-detail">The blue block is stacked on the green block in the overhead view.</p>
+          <a class="gif-link" href="assets/clips/u4.gif" aria-label="Open GIF for U4">Open GIF <span aria-hidden="true">&#8599;</span></a>
+        </article>
+        <article class="clip" id="u5">
+          <div class="clip-heading"><span class="setting">U5</span><h4>Sphere placement</h4></div>
+          <p class="instruction">&ldquo;Move the sphere from the tray into the box.&rdquo;</p>
+          <div class="media">
+            <button class="player" type="button" data-gif="assets/clips/u5.gif" data-poster="assets/posters/u5.jpg"
+                    aria-pressed="false" aria-label="Play U5: Top-down recording" hidden>
+              <span class="play-caption" aria-hidden="true"><span class="play-icon"></span><span class="play-text">Play</span></span>
+            </button>
+            <img src="assets/posters/u5.jpg" width="480" height="360" loading="lazy" decoding="async" alt="The source tray and destination box are visible from above.">
+          </div>
+          <p class="clip-detail">The source tray and destination box are visible from above.</p>
+          <a class="gif-link" href="assets/clips/u5.gif" aria-label="Open GIF for U5">Open GIF <span aria-hidden="true">&#8599;</span></a>
+        </article>
+        <article class="clip" id="u6">
+          <div class="clip-heading"><span class="setting">U6</span><h4>Cylinder placement</h4></div>
+          <p class="instruction">&ldquo;Place the cylinder in the receptacle.&rdquo;</p>
+          <div class="media">
+            <button class="player" type="button" data-gif="assets/clips/u6.gif" data-poster="assets/posters/u6.jpg"
+                    aria-pressed="false" aria-label="Play U6: Top-down recording" hidden>
+              <span class="play-caption" aria-hidden="true"><span class="play-icon"></span><span class="play-text">Play</span></span>
+            </button>
+            <img src="assets/posters/u6.jpg" width="480" height="360" loading="lazy" decoding="async" alt="The cylinder is transferred into the cardboard box in the overhead view.">
+          </div>
+          <p class="clip-detail">The cylinder is transferred into the cardboard box in the overhead view.</p>
+          <a class="gif-link" href="assets/clips/u6.gif" aria-label="Open GIF for U6">Open GIF <span aria-hidden="true">&#8599;</span></a>
+        </article>
+      </div>
+      </div>
+    </section>
+    </div>
+    <footer>
+      <p>Setting IDs follow the real-robot figure in the paper. View labels describe the recording camera.</p>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,6 +1,5 @@
-# PARIS: Real-Robot Rollouts
 
-Nine illustrative clips from the single-arm robot recordings. The IDs follow the real-robot figure in the paper. View labels describe the recording camera.
+9 illustrative clips from the single-arm robot recordings. The IDs follow the real-robot figure in the paper. View labels describe the recording camera.
 
 ## View the results
 
